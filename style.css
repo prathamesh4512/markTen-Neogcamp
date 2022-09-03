@@ -5,6 +5,11 @@
   --secondary-color: #9a3412;
   --button-color: white;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   display: block;
   margin: auto;
@@ -14,7 +19,7 @@ body {
 }
 
 nav {
-  padding: 1rem;
+  padding: 2rem;
   background-color: var(--secondary-color);
 }
 
@@ -24,6 +29,7 @@ main {
 
 .basic-font-style {
   margin: 1rem;
+  margin-top: 1.5rem;
   font-size: 1.3rem;
   font-weight: bold;
 }
@@ -77,4 +83,40 @@ th {
 
 .none {
   display: none;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.no-list-style {
+  list-style: none;
+}
+
+.no-list-style li {
+  font-weight: 100;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 0.7rem;
+  color: white;
+}
+
+.footer-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.footer-copyright {
+  margin: 0.5rem 0;
 }
